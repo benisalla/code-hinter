@@ -1,0 +1,26 @@
+[
+    {
+        "code_prof": "print('Hello from Prof. Alice, Exercise 1')",
+        "concepts": "Basics",
+        "id_prof": 1,
+        "id": 1
+    },
+    {
+        "code_prof": "print('Hello from Prof. Alice, Exercise 2')",
+        "concepts": "Advanced",
+        "id_prof": 1,
+        "id": 2
+    },
+    {
+        "code_prof": "print('Hello from Prof. Bob, Exercise 1')",
+        "concepts": "Basics",
+        "id_prof": 2,
+        "id": 3
+    },
+    {
+        "code_prof": "print('Hello from Prof. Bob, Exercise 2')",
+        "concepts": "Advanced",
+        "id_prof": 2,
+        "id": 4
+    }
+]

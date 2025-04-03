@@ -1,0 +1,209 @@
+[
+    {
+        "student_id": 1,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 1
+    },
+    {
+        "student_id": 2,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 2
+    },
+    {
+        "student_id": 3,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 3
+    },
+    {
+        "student_id": 4,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 4
+    },
+    {
+        "student_id": 5,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 5
+    },
+    {
+        "student_id": 1,
+        "exercise_id": 2,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 6
+    },
+    {
+        "student_id": 2,
+        "exercise_id": 2,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 7
+    },
+    {
+        "student_id": 3,
+        "exercise_id": 2,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 8
+    },
+    {
+        "student_id": 4,
+        "exercise_id": 2,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 9
+    },
+    {
+        "student_id": 5,
+        "exercise_id": 2,
+        "prof_id": 1,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 10
+    },
+    {
+        "student_id": 6,
+        "exercise_id": 3,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 11
+    },
+    {
+        "student_id": 7,
+        "exercise_id": 3,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 12
+    },
+    {
+        "student_id": 8,
+        "exercise_id": 3,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 13
+    },
+    {
+        "student_id": 9,
+        "exercise_id": 3,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 14
+    },
+    {
+        "student_id": 10,
+        "exercise_id": 3,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 15
+    },
+    {
+        "student_id": 6,
+        "exercise_id": 4,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 16
+    },
+    {
+        "student_id": 7,
+        "exercise_id": 4,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 17
+    },
+    {
+        "student_id": 8,
+        "exercise_id": 4,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 18
+    },
+    {
+        "student_id": 9,
+        "exercise_id": 4,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 19
+    },
+    {
+        "student_id": 10,
+        "exercise_id": 4,
+        "prof_id": 2,
+        "score": 0,
+        "status": "in_progress",
+        "code_submitted": null,
+        "id": 20
+    },
+    {
+        "student_id": 1,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "code_submitted": "class Person:\n    total_people = 0  # Renamed to be more descriptive\n\n    def __init__(self, person_name: str, person_age: int):\n        self.person_name = person_name  # Changed variable names to be more verbose\n        self.person_age = person_age\n        Person.total_people += 1  # Incrementing a differently named class variable\n    \n    def describe(self) -> str:\n        # Changed method name from get_info to describe for variety\n        info = \"Person details - \"  # Adding a prefix to the output for more context\n        info += f\"Name: {self.person_name}, Age: {self.person_age}\"\n        return info\n",
+        "status": "done",
+        "score": 90,
+        "id": 22
+    },
+    {
+        "student_id": 1,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "code_submitted": "class Person:\n    total_people = 0  # Renamed to be more descriptive\n\n    def __init__(self, person_name: str, person_age: int):\n        self.person_name = person_name  # Changed variable names to be more verbose\n        self.person_age = person_age\n        Person.total_people += 1  # Incrementing a differently named class variable\n    \n    def describe(self) -> str:\n        # Changed method name from get_info to describe for variety\n        info = \"Person details - \"  # Adding a prefix to the output for more context\n        info += f\"Name: {self.person_name}, Age: {self.person_age}\"\n        return info\n",
+        "status": "done",
+        "score": 90,
+        "id": 23
+    },
+    {
+        "student_id": 1,
+        "exercise_id": 1,
+        "prof_id": 1,
+        "code_submitted": "class Person:\n    total_people = 0  # Renamed to be more descriptive\n\n    def __init__(self, person_name: str, person_age: int):\n        self.person_name = person_name  # Changed variable names to be more verbose\n        self.person_age = person_age\n        Person.total_people += 1  # Incrementing a differently named class variable\n    \n    def describe(self) -> str:\n        # Changed method name from get_info to describe for variety\n        info = \"Person details - \"  # Adding a prefix to the output for more context\n        info += f\"Name: {self.person_name}, Age: {self.person_age}\"\n        return info\n",
+        "status": "done",
+        "score": 90,
+        "id": 24
+    }
+]
